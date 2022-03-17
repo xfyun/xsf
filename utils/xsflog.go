@@ -4,12 +4,11 @@
 * @author	sqjian
 * @version	1.0
 * @date		2017.11.29
-*/
+ */
 package utils
 
 import (
 	"errors"
-	"git.iflytek.com/AIaaS/lumberjack-ccr"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 	"os"

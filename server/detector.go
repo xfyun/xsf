@@ -2,8 +2,8 @@ package xsf
 
 import (
 	"fmt"
-	"git.iflytek.com/AIaaS/xsf/utils"
-	finder "git.iflytek.com/AIaaS/finder-go/common"
+	finder "github.com/xfyun/finder-go/common"
+	"github.com/xfyun/xsf/utils"
 	"sync"
 	"time"
 )

@@ -2,8 +2,8 @@ package xsf
 
 import (
 	"fmt"
-	metricCollector "git.iflytek.com/AIaaS/xsf/client/internal/metric_collector"
-	"git.iflytek.com/AIaaS/xsf/client/internal/rolling"
+	metricCollector "github.com/xfyun/xsf/client/internal/metric_collector"
+	"github.com/xfyun/xsf/client/internal/rolling"
 	"sync"
 	"time"
 )

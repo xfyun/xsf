@@ -9,7 +9,7 @@
 package xsf
 
 import (
-	finder "git.iflytek.com/AIaaS/finder-go/common"
+	finder "github.com/xfyun/finder-go/common"
 	"stathat.com/c/consistent"
 	"sync"
 )

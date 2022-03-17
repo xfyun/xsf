@@ -11,8 +11,8 @@ package xsf
 
 import (
 	"fmt"
-	"git.iflytek.com/AIaaS/xsf/utils"
-	"git.iflytek.com/AIaaS/uuid"
+	"github.com/xfyun/xsf/utils"
+	"github.com/xfyun/uuid"
 	"strconv"
 	"strings"
 	"time"

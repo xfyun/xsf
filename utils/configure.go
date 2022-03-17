@@ -10,8 +10,8 @@ package utils
 import (
 	"errors"
 	"fmt"
-	finder "git.iflytek.com/AIaaS/finder-go/common"
 	"github.com/BurntSushi/toml"
+	finder "github.com/xfyun/finder-go/common"
 	"reflect"
 	"strings"
 	//"fmt"

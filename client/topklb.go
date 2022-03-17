@@ -1,8 +1,8 @@
 package xsf
 
 import (
-	"git.iflytek.com/AIaaS/xsf/utils"
-	finder "git.iflytek.com/AIaaS/finder-go/common"
+	"github.com/xfyun/xsf/utils"
+	finder "github.com/xfyun/finder-go/common"
 	"math/rand"
 	"sync"
 	"time"

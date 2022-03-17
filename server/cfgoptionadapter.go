@@ -1,7 +1,7 @@
 package xsf
 
 import (
-	"git.iflytek.com/AIaaS/xsf/utils"
+	"github.com/xfyun/xsf/utils"
 )
 
 const (

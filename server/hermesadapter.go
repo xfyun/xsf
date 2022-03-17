@@ -2,8 +2,8 @@ package xsf
 
 import (
 	"fmt"
-	"git.iflytek.com/AIaaS/xsf/client"
-	"git.iflytek.com/AIaaS/xsf/utils"
+	"github.com/xfyun/xsf/client"
+	"github.com/xfyun/xsf/utils"
 	"strconv"
 	"strings"
 	"sync"

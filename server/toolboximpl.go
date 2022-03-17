@@ -6,7 +6,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"git.iflytek.com/AIaaS/xsf/utils"
+	"github.com/xfyun/xsf/utils"
 	"os"
 	"strings"
 )

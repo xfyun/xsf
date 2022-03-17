@@ -2,7 +2,7 @@ package xsf
 
 import (
 	"fmt"
-	"git.iflytek.com/AIaaS/xsf/utils"
+	"github.com/xfyun/xsf/utils"
 )
 
 //在配置文件里没有对应参数的情况下用命令行参数补齐

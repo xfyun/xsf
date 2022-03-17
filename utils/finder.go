@@ -1,8 +1,7 @@
 package utils
 
 import (
-	"git.iflytek.com/AIaaS/finder-go"
-	common "git.iflytek.com/AIaaS/finder-go/common"
+	common "github.com/xfyun/finder-go/common"
 	"time"
 )
 
@@ -96,5 +95,3 @@ func (fm *FindManger) QueryService(project, group string) (map[string][]common.S
 func (fm *FindManger) QueryServiceWatch(project, group string, handler common.ServiceChangedHandler) (map[string][]common.ServiceInfo, error) {
 	return fm.fm.ServiceFinder.QueryServiceWatch(project, group, handler)
 }
-
-

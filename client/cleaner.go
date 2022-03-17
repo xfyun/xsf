@@ -10,7 +10,7 @@
 package xsf
 
 import (
-	"git.iflytek.com/AIaaS/xsf/utils"
+	"github.com/xfyun/xsf/utils"
 	"sync"
 	"time"
 )
@@ -19,6 +19,7 @@ var (
 	precision  = 5 * time.Second
 	updateChan = 1024
 )
+
 // clData 记录服务地址以及访问时间的元结构
 type clData struct {
 	// addr 服务地址

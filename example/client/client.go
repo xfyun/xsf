@@ -3,8 +3,8 @@ package main
 import (
 	"flag"
 	"fmt"
-	"git.iflytek.com/AIaaS/xsf/client"
-	"git.iflytek.com/AIaaS/xsf/utils"
+	"github.com/xfyun/xsf/client"
+	"github.com/xfyun/xsf/utils"
 	"log"
 	"time"
 )

@@ -1,7 +1,7 @@
 package xsf
 
 import (
-	"git.iflytek.com/AIaaS/xsf/server/internal/gauge"
+	"github.com/xfyun/xsf/server/internal/gauge"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"io"
 
-	"git.iflytek.com/AIaaS/xsf/server"
-	"git.iflytek.com/AIaaS/xsf/utils"
+	"github.com/xfyun/xsf/server"
+	"github.com/xfyun/xsf/utils"
 	"strconv"
 	"time"
 )

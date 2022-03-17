@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sync"
 
-	"git.iflytek.com/AIaaS/xsf/utils"
+	"github.com/xfyun/xsf/utils"
 )
 
 var finderadapter finderAdapter

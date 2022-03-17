@@ -1,7 +1,7 @@
 package xsf
 
 import (
-	"git.iflytek.com/AIaaS/sonar"
+	"github.com/xfyun/sonar"
 )
 
 type KV struct {

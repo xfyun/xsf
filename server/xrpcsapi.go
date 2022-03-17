@@ -1,6 +1,6 @@
 package xsf
 
-import "git.iflytek.com/AIaaS/xsf/utils"
+import "github.com/xfyun/xsf/utils"
 
 type options struct {
 	router       *OpRouter

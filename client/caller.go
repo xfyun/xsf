@@ -11,7 +11,7 @@ package xsf
 
 import (
 	"errors"
-	"git.iflytek.com/AIaaS/xsf/utils"
+	"github.com/xfyun/xsf/utils"
 	"golang.org/x/net/context"
 	"strconv"
 	"sync/atomic"

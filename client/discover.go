@@ -14,14 +14,14 @@ package xsf
 
 import (
 	"errors"
-	finder "git.iflytek.com/AIaaS/finder-go/common"
+	finder "github.com/xfyun/finder-go/common"
 	"strings"
 	"sync"
 	"sync/atomic"
 
 	//"fmt"
 
-	"git.iflytek.com/AIaaS/xsf/utils"
+	"github.com/xfyun/xsf/utils"
 )
 
 var (

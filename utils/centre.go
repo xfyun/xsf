@@ -2,7 +2,7 @@ package utils
 
 import (
 	"errors"
-	finder "git.iflytek.com/AIaaS/finder-go/common"
+	finder "github.com/xfyun/finder-go/common"
 	"sync"
 )
 

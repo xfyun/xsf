@@ -1,7 +1,7 @@
 package xsf
 
 import (
-	"git.iflytek.com/AIaaS/xsf/client/internal/rolling"
+	"github.com/xfyun/xsf/client/internal/rolling"
 	"sync"
 	"time"
 )

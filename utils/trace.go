@@ -3,7 +3,7 @@ package utils
 import (
 	"fmt"
 	//flange "genitus/flange/mock"
-	"git.iflytek.com/AIaaS/flange"
+	"github.com/xfyun/flange"
 )
 
 type SpanType int

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"sync/atomic"
 	"time"
-	"git.iflytek.com/AIaaS/xsf/utils"
+	"github.com/xfyun/xsf/utils"
 )
 
 type QpsLimiter struct {
@@ -74,7 +74,7 @@ func NewQpsLimiter(opts ...QpsLimiterOpt) (*QpsLimiter, error) {
 	if SetQpsLimiterErr := qpsLimiter.SetQpsLimiter(opts...); SetQpsLimiterErr != nil {
 		return nil, fmt.Errorf("SetQpsLimiter failed -> SetQpsLimiterErr:%v", SetQpsLimiterErr)
 	}
-	addKillerCheck(killerFirstPriority,"qpsLimiter_"+qpsLimiter.bc.CfgData.Service, &qpsLimiter)
+	addKillerCheck(killerFirstPriority, "qpsLimiter_"+qpsLimiter.bc.CfgData.Service, &qpsLimiter)
 	return &qpsLimiter, nil
 }
 

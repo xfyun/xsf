@@ -1,7 +1,7 @@
 package utils
 
 import (
-	"git.iflytek.com/AIaaS/flange"
+	"github.com/xfyun/flange"
 	"log"
 	"os"
 )

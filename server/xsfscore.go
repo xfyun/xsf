@@ -2,8 +2,8 @@ package xsf
 
 import (
 	"context"
-	"git.iflytek.com/AIaaS/xsf/server/internal/bvt"
-	"git.iflytek.com/AIaaS/xsf/utils"
+	"github.com/xfyun/xsf/server/internal/bvt"
+	"github.com/xfyun/xsf/utils"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/keepalive"
 	"google.golang.org/grpc/reflection"

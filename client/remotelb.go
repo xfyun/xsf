@@ -12,7 +12,7 @@ package xsf
 import (
 	"context"
 	"errors"
-	"git.iflytek.com/AIaaS/xsf/utils"
+	"github.com/xfyun/xsf/utils"
 	"strconv"
 	"time"
 )

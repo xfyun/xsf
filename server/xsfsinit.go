@@ -2,7 +2,7 @@ package xsf
 
 import (
 	"log"
-	"git.iflytek.com/AIaaS/xsf/utils"
+	"github.com/xfyun/xsf/utils"
 )
 
 //框架初始化会首先执行此函数获取本机地址

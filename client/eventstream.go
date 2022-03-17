@@ -2,7 +2,7 @@ package xsf
 
 import (
 	"encoding/json"
-	"git.iflytek.com/AIaaS/xsf/client/internal/rolling"
+	"github.com/xfyun/xsf/client/internal/rolling"
 	"time"
 )
 
@@ -66,7 +66,6 @@ func (sh *StreamHandler) publishMetrics(cb *CircuitBreaker) ([]byte, error) {
 		LatencyTotalMean:   cb.metrics.DefaultCollector().TotalDuration().Mean(),
 		LatencyExecute:     generateLatencyTimings(cb.metrics.DefaultCollector().RunDuration()),
 		LatencyExecuteMean: cb.metrics.DefaultCollector().RunDuration().Mean(),
-
 
 		RollingStatsWindow:         10000,
 		ExecutionIsolationStrategy: "THREAD",

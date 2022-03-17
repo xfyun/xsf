@@ -2,7 +2,7 @@ package xsf
 
 import (
 	"fmt"
-	"git.iflytek.com/AIaaS/lb_client"
+	"github.com/xfyun/lb_client"
 	"time"
 )
 

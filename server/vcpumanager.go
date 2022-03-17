@@ -2,7 +2,7 @@ package xsf
 
 import (
 	"fmt"
-	"git.iflytek.com/AIaaS/xsf/utils"
+	"github.com/xfyun/xsf/utils"
 	"github.com/VividCortex/ewma"
 	"math"
 	"sync"
