@@ -1,7 +1,8 @@
 package utils
 
 import (
-	common "github.com/xfyun/finder-go/common"
+	"github.com/xfyun/finder-go"
+	"github.com/xfyun/finder-go/common"
 	"time"
 )
 
